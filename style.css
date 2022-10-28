@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+
+* {
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: black;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.nav-bar {
+  display: flex;
+  font-size: 20px;
+  gap: 32px;
+}
+
+.item {
+  font-family: "GFS Didot", serif;
+  color: white;
+  font-weight: 400;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+}
+
+.conteudo-geral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 140px;
+}
+
+.conteudo-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 85px;
+}
+
+.titulo {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: white;
+}
+
+.subtitulo {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.botao {
+  background-color: white;
+  height: 67px;
+  width: 180px;
+  border: none;
+  box-shadow: 4px 5px 4px rgb(51, 51, 48);
+  border-radius: 10px;
+  font-family: "GFS Didot", serif;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+.botao:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.imagem-principal {
+  height: 410px;
+}
+
+.rodape {
+  margin-top: 30%;
+  padding: 32px;
+  border-top: 0.4px solid white;
+}
+
+.imagem-rodape {
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Desenvolvido por Kaique Oliveira */
